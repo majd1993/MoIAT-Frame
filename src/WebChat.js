@@ -99,7 +99,7 @@ const WebChat = ({ className, onFetchToken, store, token,/* handleSwitchWhenLang
   setTimeout(() => {
     setLoading(false)
   }, 8000);
-  
+
   /* useEffect(() => {
     const socket = socketIOClient(ENDPOINT);
     socket.on("language", data => {
@@ -120,11 +120,11 @@ const WebChat = ({ className, onFetchToken, store, token,/* handleSwitchWhenLang
     <>
       {loading &&
         <div style={{ width: '100%', height: '100%', opacity: '0.7', background: 'gray', position: 'fixed', zIndex: '1000' }}>
-          <ReactLoading
+          <ReactLoading // "balls", "bars", "bubbles", "cubes", "cylon", "spin", "spinningBubbles", "spokes"
             type={'spinningBubbles'}
-            style={{ position: 'fixed', left: '44%', top: '44%', width: '40px', height: '40px', }}
+            style={{ margin: '0% calc(50% - 15px) 0% calc(50% - 15px)', width: '30px', top: '40%', position: 'fixed' }}
           />
-          <p style={{ position: 'fixed', color: '#000000', top: '50%', width: '100%', textAlign: 'center' }}>
+          <p style={{ margin: '0% 0% 0% 0%', width: '100%', top: '50%', position: 'fixed', color: '#000000', textAlign: 'center' }}>
             Please wait while we are connecting.
           </p>
         </div>
@@ -137,7 +137,8 @@ const WebChat = ({ className, onFetchToken, store, token,/* handleSwitchWhenLang
           styleSet={styleSet}
           //adaptiveCardsPackage={adaptiveCardsPackage}
           cardActionMiddleware={cardActionMiddleware}
-        />}
+        />
+      }
     </>
   )
 
