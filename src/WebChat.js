@@ -99,6 +99,7 @@ const WebChat = ({ className, onFetchToken, store, token,/* handleSwitchWhenLang
   setTimeout(() => {
     setLoading(false)
   }, 8000);
+  
   /* useEffect(() => {
     const socket = socketIOClient(ENDPOINT);
     socket.on("language", data => {
