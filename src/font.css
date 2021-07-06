@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "DroidKufi-Regular";
+    src: url("./fonts/DroidKufi-Regular.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: "DroidKufi-Bold";
+    src: local('CustomFont2Name'), url("./fonts/DroidKufi-Bold.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("./fonts/Proxima Nova Regular.otf") ;
+  }
+  
+  @font-face {
+    font-family: "ADNOC";
+    src: url("./fonts/adnoc .ttf") format("ttf");
+  }

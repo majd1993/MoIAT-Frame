@@ -1,0 +1,267 @@
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(./fonts/ProximaNova-Regular.eot) format('embedded-opentype'), url(./fonts/ProximaNova-Regular.ttf) format('truetype'), url(./fonts/ProximaNova-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: DroidKufi;
+  src: url(./fonts/DroidKufi-Regular.eot) format('embedded-opentype'), url(./fonts/DroidKufi-Regular.ttf) format('truetype'), url(./fonts/DroidKufi-Regular.woff) format('woff');
+}
+
+/* @font-face {
+  font-family: 'ProximaNovaBold';
+  src: url(./fonts/ProximaNova-Bold.eot) format('embedded-opentype'), url(./fonts/ProximaNova-Bold.ttf) format('truetype'), url(./fonts/ProximaNova-Bold.woff) format('woff');
+} */
+
+/* @font-face {
+  font-family: 'ProximaNovaExtrabld';
+  font-weight: 900;
+  font-size: 20px;
+  src: url(./fonts/ProximaNova-Extrabld.woff) format('woff'), url(./fonts/ProximaNova-Extrabld.ttf) format('truetype'), url(./fonts/ProximaNova-Extrabld.eot) format('embedded-opentype');
+} */
+
+.loading {
+  background: red;
+}
+
+.web-chat {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  /* display: none; */
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 0px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #282E3E;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0a314d;
+}
+
+.connect-spinner {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.connect-spinner>.content {
+  margin: auto;
+  background: #282E3E;
+}
+
+.connect-spinner>.content>.icon {
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.connect-spinner>.content>p {
+  font-family: 'ProximaNovaRegular' !important;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.roula .webchat__stacked-layout.webchat__stacked-layout--from-user .webchat__stacked-layout__attachment-row, .roula .webchat__stacked-layout.webchat__stacked-layout--from-user .webchat__stacked-layout__main, .roula .webchat__stacked-layout.webchat__stacked-layout--from-user .webchat__stacked-layout__message-row, .roula .webchat__stacked-layout.webchat__stacked-layout--from-user .webchat__stacked-layout__status {
+  flex-direction: row !important;
+}
+
+.roula .webchat__stacked-layout .webchat__stacked-layout__attachment-row, .roula .webchat__stacked-layout .webchat__stacked-layout__main, .roula .webchat__stacked-layout .webchat__stacked-layout__message-row, .roula .webchat__stacked-layout .webchat__stacked-layout__status {
+  flex-direction: row-reverse !important;
+  text-align: right !important;
+}
+
+.webchat__adaptive-card-renderer {
+  background: transparent !important;
+  color: #878787 !important;
+  border-radius: 16px !important;
+}
+
+/* .roula .main {
+  padding: 2px;
+  margin: 15px;
+  border: 1px solid #ADABAC !important;
+  border-radius: 10px;
+} */
+
+.main {
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid #ADABAC !important;
+  border-radius: 10px;
+}
+
+.ac-container {
+  background: transparent !important;
+  color: #878787 !important;
+  border-radius: 16px !important;
+  /* max-width: 300px; */
+}
+
+.ac-adaptiveCard {
+  background: transparent !important;
+  color: #878787 !important;
+  border-radius: 16px !important;
+}
+
+.roula .ac-pushButton {
+  /* Arabic */
+  color: #ffffff !important;
+  /* #070707 */
+  /* text-decoration-line: underline; */
+  display: block !important;
+  font-size: 16px;
+  font-family: 'ProximaNovaRegular' !important;
+  font-weight: 400 !important;
+  background: #D4B678 !important;
+  border: 2px solid #D4B678 !important;
+  text-align: right !important;
+  padding: 5px !important;
+  /* border-radius: 8px !important; */
+}
+
+.ac-pushButton {
+  /* English */
+  color: #ffffff !important;
+  /* #070707 */
+  /* text-decoration-line: underline; */
+  justify-content: start !important;
+  font-size: 15px;
+  font-family: 'ProximaNovaRegular' !important;
+  font-weight: 400 !important;
+  background: #D4B678 !important;
+  border: 2px solid #D4B678 !important;
+  border-radius: 10px;
+  text-align: left !important;
+  /* border-radius: 8px !important; */
+}
+
+.ac-actionSet {
+  text-align: right;
+}
+
+.roula .ac-textBlock {
+  font-size: 16px !important;
+  font-family: 'ProximaNovaRegular' !important;
+  margin-top: 1px;
+  color: #070707 !important;
+  font-weight: 400 !important;
+}
+
+.ac-textBlock {
+  font-size: 16px !important;
+  font-family: 'ProximaNovaRegular' !important;
+  margin-top: 1px;
+  color: #070707 !important;
+  font-weight: 400 !important;
+}
+
+.ac-input {
+  background: white;
+  padding-left: 5px !important;
+}
+
+.ac-textInput {
+  height: 25px !important;
+  border-radius: 4px !important;
+}
+
+.react-film__flipper__body {
+  background: #0b3b5d !important;
+}
+
+/* .webchat__icon-button {
+  display: none !important;
+} */
+
+.roula .webchat__send-box-text-box {
+  margin-left: -40px !important;
+  height: 100% !important;
+  background-color: #ffffff;
+  font-family: 'ProximaNovaRegular' !important;
+}
+
+.webchat__send-box-text-box {
+  margin-left: -40px !important;
+  height: 100% !important;
+  background-color: #ffffff;
+  font-family: 'ProximaNovaRegular' !important;
+}
+
+/* .webchat__bubble__content {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  font-size: 12px;
+  padding: 2px 4px 0px 4px
+} */
+
+.roula .markdown {
+  font-family: 'ProximaNovaRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 16px;
+  padding: 6px 8px 0px 8px;
+}
+
+.markdown {
+  font-family: 'ProximaNovaRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  font-size: 16px;
+  padding: 2px 4px 0px 4px
+}
+
+.roula .plain {
+  font-family: 'ProximaNovaRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  font-size: 16px;
+  padding: 6px 8px 0px 8px;
+}
+
+.plain {
+  font-family: 'ProximaNovaRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  font-size: 16px;
+  padding: 2px 4px 0px 4px
+}
+
+.webchat__stacked-layout__status {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  font-size: 12px;
+  padding: 2px 4px 0px 4px
+}
+
+.roula .webchat__suggested-action__button {
+  font-family: 'ProximaNovaRegular' !important;
+}
+
+.webchat__suggested-action__button {
+  font-family: 'ProximaNovaRegular' !important;
+}

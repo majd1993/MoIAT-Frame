@@ -1,0 +1,7 @@
+.webchat--css-iyfsm-rctxl4.webchat__stacked-layout.webchat__stacked-layout--from-user .webchat__stacked-layout__message-row{
+flex-direction: row !important;
+}
+.webchat--css-iyfsm-rctxl4.webchat__stacked-layout .webchat__stacked-layout__message-row{
+flex-direction: row-reverse !important;
+text-align: right !important;
+}
